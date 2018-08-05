@@ -1,0 +1,21 @@
+{
+  "name": "dangs/whatsapp-chat",
+  "description": "Add whatsapp-chat to magento web",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "dangs",
+      "email": "dangs.work@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Dangs\\WhatsAppChat\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
