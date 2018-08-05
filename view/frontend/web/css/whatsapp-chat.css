@@ -1,0 +1,25 @@
+#wachat a {
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    float: right;
+    top: 40%;
+    margin-top: -25px;
+    cursor: pointer;
+    min-width: 50px;
+    max-width: 150px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    background: #20b038;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+    -ms-transition: All .5s ease;
+    transition: All .5s ease;
+}
+
+#wachat a img{
+	width: 50px;
+}

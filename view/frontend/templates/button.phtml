@@ -1,0 +1,9 @@
+<?php $helper = $this->helper('Dangs\WhatsAppChat\Helper\Data');?>
+
+<?php if($helper->getStatus()): ?>
+<div id="wachat">
+	<a href="https://web.whatsapp.com/send?phone=<?php echo $helper->getPhone(); ?>&amp;text=<?php echo $helper->getMessage(); ?>" onclick="gtag('event', 'WhatsApp', {'event_action': 'whatsapp_chat', 'event_category': 'Chat', 'event_label': 'Chat_WhatsApp'});" target="_blank">
+		<img src="<?php echo $this->getViewFileUrl('Dangs_WhatsAppChat::images/button.png'); ?>" alt="WA button">
+	</a>
+</div>
+<?php endif; ?>

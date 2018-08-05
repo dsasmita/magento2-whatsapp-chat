@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+        <css src="Dangs_WhatsAppChat::css/whatsapp-chat.css" />
+    </head>
+	<body>
+		<referenceContainer name="before.body.end">
+			<block template="SY_GoToTopButton::button.phtml" name="gototopbutton" />
+			<block class="Magento\Framework\View\Element\Template" name="dangs_whatsapp_chat" 
+                template="Dangs_WhatsAppChat::button.phtml" 
+                before="before.body.end" cacheable="false">
+            </block>
+		</referenceContainer>
+	</body>
+</page>
