@@ -5,7 +5,6 @@
     </head>
 	<body>
 		<referenceContainer name="before.body.end">
-			<block template="SY_GoToTopButton::button.phtml" name="gototopbutton" />
 			<block class="Magento\Framework\View\Element\Template" name="dangs_whatsapp_chat" 
                 template="Dangs_WhatsAppChat::button.phtml" 
                 before="before.body.end" cacheable="false">
