@@ -6,7 +6,7 @@
 		<img src="<?php echo $this->getViewFileUrl('Dangs_WhatsAppChat::images/button.png'); ?>" alt="WA button">
 	</a>
 
-	<a href="https://wa.me/085236725506?text=<?php echo $helper->getMessage(); ?>" onclick="gtag('event', 'WhatsApp', {'event_action': 'whatsapp_chat', 'event_category': 'Chat', 'event_label': 'Chat_WhatsApp'});" target="_blank" class="btn-mobile">
+	<a href="https://wa.me/<?php echo $helper->getPhone(); ?>?text=<?php echo $helper->getMessage(); ?>" onclick="gtag('event', 'WhatsApp', {'event_action': 'whatsapp_chat', 'event_category': 'Chat', 'event_label': 'Chat_WhatsApp'});" target="_blank" class="btn-mobile">
 		<img src="<?php echo $this->getViewFileUrl('Dangs_WhatsAppChat::images/button.png'); ?>" alt="WA button">
 	</a>
 </div>
